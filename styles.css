@@ -279,3 +279,27 @@ footer {
 .social-links a:hover {
     color: #3498db;
 }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .nav-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .nav-links {
+            margin-top: 1rem;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+    }
